@@ -17,10 +17,7 @@ const Dashboard = () => {
           <Switch>
             <Route path={`${url}/patients`} component={Patients} exact />
             <Route path={`${url}/settings`} component={Settings} exact />
-            <Route
-              path={`${url}/patient-profile/:id`}
-              component={PatientProfile}
-            />
+            <Route path={`${url}/patients/:id`} component={PatientProfile} />
           </Switch>
         </div>
       </div>

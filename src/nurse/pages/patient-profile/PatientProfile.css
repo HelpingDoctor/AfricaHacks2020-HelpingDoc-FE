@@ -1,0 +1,105 @@
+#patientProfile {
+    background: #F3F7F8;
+}
+
+#patientProfile h1 {
+    font-size: 26px;
+}
+
+#patientProfile h2 {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+#patientProfile h3 {
+    font-size: 16px;
+}
+
+.patient-basicinfo {
+    background: #5B80F2;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#patientProfile .bg-white {
+    border-radius: 6px;
+}
+
+#patientProfile ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+
+}
+
+
+ul.family-history-items,
+ul.patient-immunization-items,
+ul.patient-allergies-items,
+ul.medical-history-items,
+ul.lab-test-items,
+ul.previous-doctors-items,
+ul.recent-medications-items {
+    font-size: 14px;
+    -webkit-box-shadow: 0px 2px 5px 6px rgba(234, 240, 242, 1);
+    -moz-box-shadow: 0px 2px 5px 6px rgba(234, 240, 242, 1);
+    box-shadow: 0px 2px 5px 6px rgba(234, 240, 242, 1);
+}
+
+span.family-condition {
+    font-weight: 500;
+    font-size: 14.5px;
+}
+
+.severe {
+    color: red;
+}
+
+.moderate {
+    color: darkorange;
+}
+
+.patient-immunization-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.patient-immunization-item div {
+    flex-direction: column;
+}
+
+.patient-immunization-item .expired {
+    color: red;
+}
+
+.patient-immunization-item .active {
+    color: green;
+}
+
+ul.medical-history-items {
+    display: flex;
+}
+
+ul.medical-history-items li {
+    margin-right: 12px;
+    border: #5B80F2 0.5px solid;
+    border-radius: 4px;
+}
+
+ul.medical-history-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+
+.doctor-details p,
+.medication-details p {
+    margin-bottom: 5px !important;
+}
+
+.medication-avatar {
+    width: 30%;
+}
+
+.medication-details {
+    width: 70%;
+}

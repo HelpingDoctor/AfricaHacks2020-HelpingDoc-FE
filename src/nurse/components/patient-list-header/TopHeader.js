@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import SearchPatient from "../search-patient/SearchPatient";
+import BellIcon from "../../../assets/bell.svg";
 
 function TopHeader() {
   const [patientItem, setPatientItem] = useState("");
 
   return (
-    <div className="patients-top-header d-flex justify-content-between py-2">
+    <div className="patients-top-header d-flex justify-content-between py-2 pr-2">
       <div className="left-1 align-self-center">
         <svg
           width="30"
@@ -24,7 +25,10 @@ function TopHeader() {
         </svg>
         <span className="font-weight-bold">Patients</span>
       </div>
-      <SearchPatient searchText={(text) => setPatientItem(text)} />
+      <div className="d-flex">
+        <SearchPatient searchText={(text) => setPatientItem(text)} />
+        <img src={BellIcon} alt="Notification badge" />
+      </div>
     </div>
   );
 }
