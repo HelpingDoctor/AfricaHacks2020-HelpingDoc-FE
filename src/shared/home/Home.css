@@ -54,6 +54,11 @@ p {
     margin: 70px auto 0;
 }
 
+.features-wrap h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
 
 #about {
     margin-top: 90px;
@@ -133,6 +138,10 @@ p {
 .testimonial2 .testi2 .owl-dots .owl-dot.active,
 .testimonial2 .testi2 .owl-dots .owl-dot:hover {
     opacity: 1;
+}
+
+.carousel-item .image-thumb {
+    display: flex !important;
 }
 
 @media (max-width: 767px) {
@@ -468,7 +477,7 @@ textarea.input100 {
 }
 
 .input100:focus+.focus-input100+.symbol-input100 {
-    color: #846add;
+    color: #5B80F2;
     padding-left: 22px;
 }
 

@@ -27,7 +27,9 @@ const SideNav = () => {
   ];
   return (
     <div className="col-sm-2" id="nurse-side-nav">
-      <div className="py-3 px-4">helpingDoc</div>
+      <div className="py-3 px-4">
+        <Link to="/">helpingDoc</Link>
+      </div>
       <ul className="side-nav-items">
         {NavItems.map((navitem) => {
           return (

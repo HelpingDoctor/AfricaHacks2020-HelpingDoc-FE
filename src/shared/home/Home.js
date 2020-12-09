@@ -3,7 +3,7 @@ import React from "react";
 import HeroImage from "../../assets/homepage/undraw_medicine_b1ol.svg";
 import AboutImage from "../../assets/homepage/undraw_medical_care_movn.svg";
 import ContactImage from "../../assets/homepage/undraw_envelope_n8lc.svg";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
 import "./Home.css";
 
@@ -247,7 +247,7 @@ function Home() {
                         Partner, Brevin
                       </h6>
                     </div>
-                    <div class="col-lg-6 col-md-6 image-thumb d-none d-md-block d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6 image-thumb d-none d-md-block align-items-center justify-content-center">
                       <img
                         src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/1.jpg"
                         alt="wrapkit"
@@ -289,7 +289,7 @@ function Home() {
                         Partner, Brevin
                       </h6>
                     </div>
-                    <div class="col-lg-6 col-md-6 image-thumb d-none d-md-block">
+                    <div class="col-lg-6 col-md-6 image-thumb d-none d-md-block align-items-center justify-content-center">
                       <img
                         src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/2.jpg"
                         alt="wrapkit"
@@ -331,7 +331,7 @@ function Home() {
                         Partner, Brevin
                       </h6>
                     </div>
-                    <div class="col-lg-6 col-md-6 image-thumb d-none d-md-block">
+                    <div class="col-lg-6 col-md-6 image-thumb d-none d-md-block align-items-center justify-content-center">
                       <img
                         src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/3.jpg"
                         alt="wrapkit"
