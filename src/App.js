@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/dashboard-nurse" component={DashboardNurse} />
+        <Route path="/nurse-dashboard" component={DashboardNurse} />
 
         {/* Error 404 - Page Not Found */}
         <Route path="*" component={Error404} />
