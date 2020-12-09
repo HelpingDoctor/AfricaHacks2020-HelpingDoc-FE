@@ -5,6 +5,7 @@ import SideNav from "../../components/sidenav/SideNav";
 import PatientProfile from "../patient-profile/PatientProfile";
 import Patients from "../patients/Patients";
 import Settings from "../../../shared/settings/Settings";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   const { url } = useRouteMatch();

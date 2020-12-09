@@ -1,0 +1,9 @@
+#nurse-side-nav {
+    background-color: white;
+}
+
+#nurse-side-nav .side-nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
