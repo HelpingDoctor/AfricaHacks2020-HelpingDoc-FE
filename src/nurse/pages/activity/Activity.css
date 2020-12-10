@@ -1,0 +1,87 @@
+#activity {
+    /* background: #f6f8fe; */
+    /* background: #f8fafe; */
+    background: #F3F7F8;
+}
+
+#activity h1 {
+    font-size: 2rem;
+}
+
+#activity h2 {
+    font-size: 1.3rem;
+}
+
+#activity p,
+#activity span,
+#activity div,
+#activity li {
+    font-size: 0.90rem;
+}
+
+#activity div.section-title {
+    border-bottom: 1px solid #d5d6f2;
+    margin-bottom: 8px;
+}
+
+#activity .chart {
+    background: #5B77F2;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+}
+
+#activity .recent-chat-list {
+    background: #fff;
+    width: 30%;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+}
+
+#activity .recent-chat-list li {
+    margin-bottom: 8px;
+}
+
+#activity .recent-chat-list li:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+
+#activity .top-treatment-list {
+    background: #fff;
+    width: 30%;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+}
+
+#activity .recent-patients-list {
+    background: #fff;
+    width: 67%;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+    box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 1);
+}
+
+#activity ul {
+    padding: 0;
+}
+
+#activity ul.patients-items li {
+    margin-right: 12px;
+    background: #F3F7F8;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 0.62);
+    -moz-box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 0.62);
+    box-shadow: -1px 0px 5px 6px rgba(230, 240, 242, 0.62);
+}
+
+#activity div.add-new-patient {
+    justify-content: center;
+    align-items: center;
+    background: #F3F7F8;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import AvatarD from "../../../shared/doctor-avatar/AvatarD";
+import AvatarD from "../../../shared/components/doctor-avatar/AvatarD";
 import "./PatientProfile.css";
 
 function PatientProfile() {

@@ -7,7 +7,7 @@ import "./Patients.css";
 
 const Patients = () => {
   return (
-    <div>
+    <div id="patient-list" className="h-100">
       <TopHeader />
       <BottomHeader />
       <PatientList />

@@ -1,5 +1,5 @@
 import React from "react";
-import DoctorImage from "../../assets/doctor-icon.svg";
+import DoctorImage from "../../../assets/doctor-icon.svg";
 import "./AvatarD.css";
 
 const AvatarD = ({ image, width, height }) => {

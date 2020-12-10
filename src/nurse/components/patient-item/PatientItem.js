@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Avatar from "../patient-avatar/Avatar";
+import Avatar from "../../../shared/components/patient-avatar/Avatar";
 
 import "./PatientItem.css";
 

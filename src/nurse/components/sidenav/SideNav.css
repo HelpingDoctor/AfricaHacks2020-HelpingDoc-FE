@@ -22,6 +22,10 @@
     fill: white !important;
 }
 
+#nurse-side-nav .active svg polyline {
+    stroke: #5b61f2;
+}
+
 #nurse-side-nav .active svg path:nth-child(2) {
     stroke: rgb(91, 97, 242);
 }

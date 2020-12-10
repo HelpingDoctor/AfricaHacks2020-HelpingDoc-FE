@@ -6,6 +6,12 @@ import "./SideNav.css";
 const SideNav = () => {
   const NavItems = [
     {
+      pathD: "M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+      point: "9 22 9 12 15 12 15 22",
+      title: "Activity",
+      path: "activity",
+    },
+    {
       pathD:
         "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z",
       title: "Patients",
@@ -26,7 +32,7 @@ const SideNav = () => {
     },
   ];
   return (
-    <div className="col-sm-2" id="nurse-side-nav">
+    <div className="col-sm-2 pr-0" id="nurse-side-nav">
       <div className="py-3 px-4">
         <Link to="/">helpingDoc</Link>
       </div>
@@ -63,6 +69,9 @@ const SideNav = () => {
                       strokeWidth="2"
                       d={navitem.pathD2}
                     />
+                  )}
+                  {navitem.point && (
+                    <polyline points={navitem.point}></polyline>
                   )}
                 </svg>
                 <span className="nav-item-title d-md-block">

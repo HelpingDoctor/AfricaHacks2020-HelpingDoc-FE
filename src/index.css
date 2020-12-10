@@ -10,3 +10,8 @@ body {
 code {
   font-family: 'Ubuntu', sans-serif;
 }
+
+p,
+span {
+  font-family: 'Nunito', sans-serif;
+}

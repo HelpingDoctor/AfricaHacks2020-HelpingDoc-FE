@@ -6,7 +6,7 @@ function TopHeader() {
   const [patientItem, setPatientItem] = useState("");
 
   return (
-    <div className="patients-top-header d-flex justify-content-between py-2 pr-2">
+    <div className="patients-top-header d-flex justify-content-between py-2 px-2">
       <div className="left-1 align-self-center">
         <svg
           width="30"

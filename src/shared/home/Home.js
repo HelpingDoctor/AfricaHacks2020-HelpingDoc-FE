@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import HeroImage from "../../assets/homepage/undraw_medicine_b1ol.svg";
 import AboutImage from "../../assets/homepage/undraw_medical_care_movn.svg";
 import ContactImage from "../../assets/homepage/undraw_envelope_n8lc.svg";
 import Navbar from "../components/navbar/Navbar";
+import Login from "../login/Login";
 import Footer from "../components/footer/Footer";
 import "./Home.css";
 
@@ -22,7 +24,13 @@ function Home() {
                 nobis, minus amet!
               </p>
               <div className="get-started-btn-wrap">
-                <button className="btn btn-primary">Get Started</button>
+                <Link
+                  type="button"
+                  className="btn btn-primary text-white"
+                  to="/nurse-dashboard/patients"
+                >
+                  Get Started
+                </Link>
               </div>
             </div>
             <div className="col-md-6 hero-image">
