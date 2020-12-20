@@ -177,6 +177,11 @@ function Home() {
               </div>
             </div>
           </div>
+          <div className="text-center learn-more mt-5">
+            <button type="primary" className="btn btn-outline-primary">
+              Learn more
+            </button>
+          </div>
         </section>
         <section id="about">
           <div className="row">

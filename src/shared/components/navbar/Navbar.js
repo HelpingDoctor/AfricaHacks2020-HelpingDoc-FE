@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id='home-nav'>
       <div className="container-fluid nav-wrap">
         <Link class="navbar-brand" to="/">
           helpingDoc
