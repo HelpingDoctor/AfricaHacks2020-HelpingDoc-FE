@@ -1,0 +1,80 @@
+#patient-pro {
+  background-color: #f2f5f9;
+}
+/* #patient-pro main div.profile-wrap {
+} */
+
+main {
+  margin: 10px auto;
+}
+
+main div.profile-wrap .left-box {
+  width: 76%;
+}
+
+main div.profile-wrap .right-box {
+  width: 22%;
+}
+
+div.profile-wrap .left-box .photo-n-email {
+  background-color: #ffffff;
+  width: 30%;
+  flex-direction: column;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+main .profile-wrap div.other-info {
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+
+div.other-info .left,
+div.other-info .right,
+div.other-info .mid {
+  width: 30%;
+}
+
+div.other-info label {
+  font-size: 0.92rem;
+}
+
+.basic-profile .other-info input {
+  border-bottom: 2px #f2f5f9 solid;
+  height: 38px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.basic-profile .other-info select {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px #f2f5f9 solid;
+}
+
+.basic-profile .other-info .mid input {
+  border: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 2px #f2f5f9 solid !important;
+}
+
+main div.medical-profile {
+  background-color: #ffffff;
+}
+
+main div.medical-profile .tab-buttons button {
+  background-color: #f2f5f9;
+}
+
+.right-box .patient-notes {
+  background-color: #ffffff;
+}
+
+.right-box .patient-notes textarea {
+  background-color: #f2f5f9;
+}
+
+.right-box .attachments {
+  background-color: #ffffff;
+}
