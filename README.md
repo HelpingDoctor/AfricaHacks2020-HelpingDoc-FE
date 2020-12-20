@@ -28,7 +28,7 @@ This process here should be able to guide you on how to contribute effectively t
         
     * Make your the main repo the remote upstream 
         ```
-            git remote add upstream https://github.com/helping-doctor/Africahack-helping-doc-FE.git
+            git remote add upstream https://github.com/HelpingDoctor/AfricaHacks2020-HelpingDoc-FE.git
         ```
     * swich to your branch 
 
