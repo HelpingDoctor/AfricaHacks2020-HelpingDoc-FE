@@ -12,22 +12,24 @@ import PatientProfileOld from "./nurse/pages/patient-profile/PatientProfile";
 import Error404 from "./shared/error404/Error404";
 
 function App() {
-  // const { isLoading } = useAuth0();
-  // if (isLoading) {
-  //   return <Loading />;
-  // }
+  const { isLoading } = useAuth0();
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
     <div className="App">
-      {/* <Switch>
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <PrivateRoute path="/nurse-dashboard" component={DashboardNurse} /> */}
+        {/* <PrivateRoute path="/nurse" component={DashboardNurse} />
+        <PrivateRoute path="/doctor" component={DashboardNurse} /> */}
 
-      {/* Error 404 - Page Not Found */}
-      {/* <Route path="*" component={Error404} />
-      </Switch> */}
-      <PatientProfile />
-      {/* <PatientProfileOld /> */}
+        <Route path="/nurse" component={DashboardNurse} />
+        <Route path="/doctor" component={DashboardNurse} />
+
+        {/* Error 404 - Page Not Found */}
+        <Route path="*" component={Error404} />
+      </Switch>
     </div>
   );
 }

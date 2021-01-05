@@ -11,7 +11,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="homepage">
       <Navbar />
       <main>
         <section id="hero" className="px-5">
@@ -27,7 +27,7 @@ function Home() {
                 <Link
                   type="button"
                   className="btn btn-primary text-white"
-                  to="/nurse-dashboard/patients"
+                  to="/nurse/patients"
                 >
                   Get Started
                 </Link>

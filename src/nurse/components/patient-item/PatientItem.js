@@ -28,7 +28,7 @@ function PatientItem({ id, name, age, dob, diag, triag }) {
           <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
         </button>
         <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <Link to={`/nurse-dashboard/patients/${id}`}>
+          <Link to={`/nurse/patients/${id}`}>
             <button class="dropdown-item" type="button">
               <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit /
               View
