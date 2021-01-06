@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light" id='home-nav'>
+    <nav class="navbar navbar-expand-lg navbar-light" id="home-nav">
       <div className="container-fluid nav-wrap">
         <Link class="navbar-brand" to="/">
           helpingDoc
@@ -48,7 +48,7 @@ const Navbar = () => {
               <Link
                 type="button"
                 className="nav-link btn btn-primary text-white"
-                to="/nurse-dashboard/patients"
+                to="/nurse/patients"
               >
                 Get Started
               </Link>
